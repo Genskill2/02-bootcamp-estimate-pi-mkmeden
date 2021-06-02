@@ -17,7 +17,7 @@ def monte_carlo(n):
         if x*x + y*y < 1:
             ctr+=1
         n-=1
-    print(4*(ctr/num))    
+      
     return 4*(ctr/num)
 
 class TestWallis(unittest.TestCase):
